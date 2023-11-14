@@ -2,11 +2,11 @@
 
 /**
  * _putchar - writes character c to stdout
- * @c: character to print
+ * @chara: character to print
  * Return: 1, success, -1 error
  */
 
-int _putchar(char c)
+int _putchar(char chara)
 {
-	return (write(1, &c, 1));
+	return (write(1, &chara, 1));
 }

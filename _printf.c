@@ -1,14 +1,14 @@
-#include "main.h"
+#include "mainy.h"
 
 /**
  * _printf - implementation of the inbuilt printf
- * @format: the format specifier
- * Return: the formated string
+ * @format: format specifier
+ * Return: formated string
  */
 
 int _printf(const char *format, ...)
 {
-	int printed = 0;
+	int print = 0;
 
 	va_list args;
 
@@ -19,16 +19,16 @@ int _printf(const char *format, ...)
 		if (*format == '%')
 		{
 			format++;
-			printed = selector(format, args, printed);
+			print = selecty(format, args, print);
 			format++;
 		}
 		else
 		{
 			_putchar(*format);
-			printed++;
+			print++;
 			format++;
 		}
 	}
 	va_end(args);
-	return (printed);
+	return (print);
 }
