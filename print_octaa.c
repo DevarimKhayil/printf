@@ -1,4 +1,4 @@
-#include "mainy.h"
+#include "main.h"
 
 /**
  * printf_octa - prints a binary number

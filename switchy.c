@@ -1,4 +1,4 @@
-#include "mainy.h"
+#include "main.h"
 
 /**
  * selecty - selects appropriate specifiers

@@ -1,4 +1,4 @@
-#include "mainy.h"
+#include "main.h"
 
 /**
  * _printf - implementation of the inbuilt printf

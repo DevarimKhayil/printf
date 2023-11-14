@@ -1,5 +1,5 @@
-#ifndef MAINY_H
-#define MAINY_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>

@@ -1,4 +1,4 @@
-#include "mainy.h"
+#include "main.h"
 /**
  * printf_perc - prints percentage
  * Return: 1.
