@@ -1,1 +1,1 @@
-printf
+printf 1
